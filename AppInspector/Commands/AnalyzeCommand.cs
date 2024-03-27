@@ -17,7 +17,7 @@ using Microsoft.CST.RecursiveExtractor;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using System.Text.Json.Serialization;
-using ShellProgressBar;
+
 using LibGit2Sharp;
 
 namespace Microsoft.ApplicationInspector.Commands;
@@ -271,7 +271,7 @@ public class AnalyzeCommand
         if (!string.IsNullOrEmpty(_options.CustomRulesPath))
         {
             rulesSet ??= new RuleSet(_loggerFactory) { EnableNonBacktrackingRegex = _options.EnableNonBacktrackingRegex };
-            
+
             RulesVerifierOptions rulesVerifierOptions = new()
             {
                 LanguageSpecs = _languages,
