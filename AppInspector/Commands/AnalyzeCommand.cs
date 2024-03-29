@@ -19,6 +19,7 @@ using Microsoft.Extensions.Logging.Abstractions;
 using System.Text.Json.Serialization;
 using ShellProgressBar;
 using LibGit2Sharp;
+
 namespace Microsoft.ApplicationInspector.Commands;
 
 /// <summary>
