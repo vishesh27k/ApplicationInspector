@@ -447,6 +447,12 @@ namespace Microsoft.ApplicationInspector.Commands.Properties {
                 return ResourceManager.GetString("RUNTIME_ERROR_PRELOG", resourceCulture);
             }
         }
+
+        internal static string RUNTIME_FIRST_NAME {
+            get {
+                return ResourceManager.GetString("RUNTIME_FIRST_NAME", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Additional details may be found in log file at {0}.
