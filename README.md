@@ -1,5 +1,4 @@
 # Introduction
-
 ![CodeQL](https://github.com/microsoft/ApplicationInspector/workflows/CodeQL/badge.svg) 
 [![Nuget](https://img.shields.io/nuget/v/Microsoft.CST.ApplicationInspector.Cli)](https://www.nuget.org/packages/Microsoft.CST.ApplicationInspector.CLI/) 
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.CST.ApplicationInspector.Cli)](https://www.nuget.org/packages/Microsoft.CST.ApplicationInspector.CLI/)
